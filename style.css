@@ -1,0 +1,8 @@
+div {
+    border: 5px solid black;
+    padding: 2px;
+  }
+  button {
+    font-size: 40px;
+    margin-top: 20px;
+  }
