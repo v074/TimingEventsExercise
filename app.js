@@ -58,7 +58,7 @@ const countdownClock=setInterval(() => {
     // Case 1: OUT OF TIME
     if(sec===0&&min===0){
         p4.innerText=`TIME IS UP`;
-        removeInterval(countdownClock);
+        clearInterval(countdownClock);
     }
     // Case 2: less than 10 seconds (as clocks will typically display double-digits on the seconds counter)
     else if(sec<10){
